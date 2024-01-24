@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
 </head>
 <body>
+    
     <div class="header">
         <section class="nav-logo box">
             <p class="logo">Header Logo</p>
@@ -21,16 +23,18 @@
 
         <div class="main-content box">
             <section class="main-section text">
-                <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <button>Sign Up</button>
+                <h1 id="main-text" >This website is awesome</h1>
+                <p id="secondary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <input type="button" value="Sign up">
             </section>
+
             <section class="main-section image">
                 
             </section>
         </div>
 
     </div>
+    
 
 
   
@@ -39,20 +43,52 @@
             <h2>Some random infomation.</h2>
         </div>
 
-        <div class="sections">
-            <section class="view one">mvjhv</section>
-            <section class="view two">sdf</section>
-            <section class="view tree"></section>
-            <section class="view"></section>
+        <div class="cards box">
+        
+            <section class="card" >
+                <div class="empty-container"></div>
+                <p class="card-text">this is some subtext under and image or illustration</p>
+            </section>
+
+            <section class="card">
+                <div class="empty-container"></div>
+                <p class="card-text" >this is some subtext under and image or illustration</p>
+            </section>
+
+            <section class="card">
+                <div class="empty-container"></div>
+                <p class="card-text" >this is some subtext under and image or illustration</p>
+            </section>
+
+            <section class="card">
+                <div class="empty-container"></div>
+                <p class="card-text" >this is some subtext under and image or illustration</p>
+            </section>
            
 
         </div>
      
 
     </div>
-    <div class="bottom">
-        <H1>Footer</H1>
+    <div class="qoute box">
+        <br>
+        <p class="message">This is an inspiration qoute, or a testimonial from a costomer.Maybe its just a filling up space, or maybe people will actually read it , Who knows ? All i know is that it looks nice. </p>
+        <p class="author"><b> -Thor, God of Thunder</b></p>
     </div>
+
+    <div class="footer">
+        <div class="footer-text">
+            <p><b>Call to action it's time!</b></p>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="button-box">
+            <input type="button" value="Sign Up" id="button">
+        </div>
+        
+
+    </div>
+
+    
     
 </body>
 </html>

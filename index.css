@@ -1,3 +1,20 @@
+.main-content{
+    display: flex;
+    color: #F9FAF8;
+}
+.main-section{
+    flex : 1;
+}
+
+#main-text{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#secondary-text{
+    font-size: 18px;
+}
+
 .header{
     color: white;
 }
@@ -5,27 +22,39 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.sections{
+.cards{
     display: flex;
+ 
+    
 }
-
-.view{
+.card{
     flex :1;
-    height: 100px;
-    border: 5px solid;
-    border-color: rgb(64, 64, 154);
-    border-radius: 10%;
     margin: 20px;
+  
+
+}
+.card-text{
+    width: 150px;
+}
+
+.empty-container{
+    
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    border-color: #3882F6;
+    border-radius: 10%;
 
 }
 
-button{
-    background-color: blue;
+input{
+    background-color: #3882F6;
     color: white;
+   
 }
 
 .box {
-    padding : 60px;
+    padding : 100px;
     padding-top: 0px;
 }
 
@@ -44,17 +73,54 @@ button{
     margin-left: auto;
 }
 
-.main-content{
-    display: flex;
-}
-.main-section{
-    flex : 1;
-}
+
 
 .infomation{
     text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
 }
 
-.bottom{
+.qoute{
     background-color: #E5E7EB;
+}
+
+.message{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    text-align: end;
+    
+}
+
+
+.footer{
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 50px;
+    background-color: #3882F6;
+
+    
+
+}
+.footer-text{
+    flex: 0.7;
+}
+/* i tried t center the content but failed  */
+.button-box{
+   flex: 0.3;
+   justify-content: center; 
+   
+
+    
+}
+#button{
+    height: 40px;
+    ;
+    
 }
